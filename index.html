@@ -17,16 +17,17 @@
         <link href="css/footer.css" rel="stylesheet">
     </head>
     <body>
-        <header class="head container">
+        <header id="Home" class="head container">
 
-            <img class="head__logo" src="img/ALAS DE PAPEL (1).png" alt="Logo de Apeperia">
+            <a class="head__logo" href="index.html"><img src="img/ALAS DE PAPEL (1).png" alt="Logo"></a>
             <nav class="head__navegacion">
+            
                 <ul>
-                    <li class="head__enlace"><a href="#">Sobre</a></li>
-                    <li class="head__enlace"><a href="#">Servicios</a></li>
-                    <li class="head__enlace"><a href="#">Blog</a></li>
-                    <li class="head__enlace"><a href="#">Institucional</a></li>
-                    <li class="head__enlace"><a href="#">Contacto</a></li>
+                    <li class="head__enlace"><a href="#about">Sobre nosotros</a></li>
+                    <li class="head__enlace"><a href="#planes">Servicios</a></li>
+                    <!--<li class="head__enlace"><a href="#">Blog</a></li> -->
+                    <li class="head__enlace"><a href="#datos">Institucional</a></li>
+                    <li class="head__enlace"><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,7 +35,7 @@
             <section class="llamada container">
                 <h1 class="llamada__titulo">Servicios para autores</h1>
                 <p class="llamada__texto">Alas de papel es una empresa de servicios de corrección de textos, diseño y maquetación editorial</p>
-                <button class="button" href="#"> Conozca nuestros servicios</button>
+                <button class="button" href="#planes"> Conozca nuestros servicios</button>
             </section>
         
             <section class="diferenciales container">
@@ -53,7 +54,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="sobre_nosotros container">
+            <section id="about"  class="sobre_nosotros container">
                 <div class="sobre_nosotros__contenido">
                     <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
                     <p class="sobre_nosotros__texto">
@@ -68,7 +69,7 @@
                     
                 </div>
             </section>
-            <section class="planes">
+            <section id="planes">
                 <h2 class="planes__titulo">Servicios</h2>
                 <ul class="planes__tarjetas">
                     <li class="tarjetas tarjetas--start">
@@ -99,7 +100,7 @@
                     </li>
                 </ul>
             </section>
-            <div class="card">
+            <div id="contacto" class="card">
                 <span class="title">Contáctanos</span>
                 <form class="form">
                   <div class="group">
@@ -118,7 +119,7 @@
                 </form>
               </div>
               
-            <section class="institucional container">
+            <section id="datos" class="institucional container">
                 <h2 class="institucional__titulo">Institucional</h2>
                 <p class="institucional__descrepcion">Un poco más sobre Alas de Papel</p>
                 <address class="institucional__direccion">
@@ -141,11 +142,11 @@
                 </ul>
                 <nav>
                     <ul class="footer__navegacion">
-                        <li class="footer__enlace"><a href="#">Sobre</a></li>
-                        <li class="footer__enlace"><a href="#">Planes</a></li>
-                        <li class="footer__enlace"><a href="#">Blog</a></li>
-                        <li class="footer__enlace"><a href="#">Institucional</a></li>
-                        <li class="footer__enlace"><a href="#">Contacto</a></li>
+                        <li class="footer__enlace"><a href="#about">Sobre</a></li>
+                        <li class="footer__enlace"><a href="#planes">Planes</a></li>
+                        <!--<li class="footer__enlace"><a href="#">Blog</a></li> -->
+                        <li class="footer__enlace"><a href="#datos">Institucional</a></li>
+                        <li class="footer__enlace"><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </footer>
