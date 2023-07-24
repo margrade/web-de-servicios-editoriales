@@ -1,7 +1,49 @@
 body {
-    padding-top: 20px;
-  }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
   
+header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head {
+  background-color: black;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+
+  border-bottom: 1px solid var(--border-cabecera-mobile);
+
+  position: absolute;
+}
+
+.head__logo {
+  margin-bottom: 1rem;
+}
+
+.head__navegacion {
+  text-align: center;
+  color: aliceblue;
+}
+
+.head__enlace {
+  font-size: 1.1rem;
+
+  display: inline-block;
+
+  margin-right: .7rem;
+  margin-bottom: .7rem;
+  margin-left: .7rem;
+}
+
 .card {
     background-color: #fff;
     border-radius: 10px;
@@ -15,26 +57,28 @@ body {
   }
   
   .title {
+    margin-top: 130px;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
   }
   
   .form {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
   }
   
   .group {
     position: relative;
+    margin-top: 20px;
   }
   
   .form .group label {
     font-size: 14px;
     color: rgb(99, 102, 102);
     position: absolute;
-    top: -10px;
+    top: -15px;
     left: 10px;
     background-color: #fff;
     transition: all .3s ease;
@@ -68,6 +112,16 @@ body {
     color: #3366cc;
     font-weight: 600;
     font-size: 14px;
+  }
+
+  #tipo-de-servicio {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 40%;
+    background-color: transparent;
   }
   
   .form .group textarea {
