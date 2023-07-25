@@ -23,7 +23,7 @@
 }
 
 .footer__navegacion {
-    color: var(--background-blanco);
+    color: #fff;
     font: var(--open-sans);
     text-align: center;
     line-height: 3;

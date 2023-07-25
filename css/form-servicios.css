@@ -29,7 +29,7 @@ header {
 
   border-bottom: 1px solid var(--border-cabecera-mobile);
 
-  position: absolute;
+  position: relative;
 }
 
 .head__logo {
@@ -51,16 +51,21 @@ header {
   margin-left: .7rem;
 }
 
+div {
+  margin: 10px 0;
+}
+
 /* Configuración de tarjetas con detalle de los servicios */
 
 .container {
   width: 100%;
   display: flex;
-  
+  padding-top: 20px;
 }
 
 .item {
- 
+  padding: 20px;
+  width: 100%;
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
@@ -82,12 +87,23 @@ header {
 }
 
 /* Config del cuerpo de la card */
+.card-body{
+  padding: 15px;
+  text-align: justify;
+
+}
+
+.card-text{
+  line-height: 1.5;
+}
 
 .card-title{
   font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.card {
+.formulario-ss {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -102,21 +118,21 @@ header {
   /* Config del apartado de formulario de consultas sobre servicios */
 
   .title {
-    margin-top: 130px;
+
     font-size: 24px;
     font-weight: 600;
     text-align: center;
   }
   
   .form {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
   
   .group {
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .form .group label {
