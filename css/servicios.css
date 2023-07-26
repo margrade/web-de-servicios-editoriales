@@ -1,0 +1,134 @@
+.planes {
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.planes__titulo {
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 1.25rem;
+}
+
+.planes__tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex: 1 0 200px;
+    margin: 10px;
+}
+
+.planes__tarjetas h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .planes__tarjetas articule {
+    flex: 1;
+  }
+
+  .planes__tarjetas img {
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-content: center;
+  }
+
+  .planes__tarjetas p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .planes__tarjetas a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .planes__tarjetas a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.tarjetas__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
+}
+
+.tarjetas__contenido {
+    padding: 0 15%;
+    display: center;
+    place-content: center;
+    }
+
+.tarjetas__texto {
+    color:#000;
+    line-height: 28px;
+}
+
+.tarjeta__img{
+    width: 100%;
+  height: 210px;
+}
+
+.tarjetas__boton {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    width: 100%;
+
+    align-self: center;
+
+    padding: .75rem 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tarjetas--start {
+    color: var(--planes-card-start);
+}
+
+.tarjetas--ultra {
+    color: var(--planes-card-ultra);
+}
+
+.tarjetas--mega {
+    color: var(--planes-card-mega);
+}
+
+.tarjetas__boton--start {
+    border-color: var(--planes-card-start);
+}
+
+.tarjetas__boton--ultra {
+    border-color: var(--planes-card-ultra);
+}
+
+.tarjetas__boton--mega {
+    border-color: var(--planes-card-mega);
+}

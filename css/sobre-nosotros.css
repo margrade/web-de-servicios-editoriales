@@ -1,0 +1,40 @@
+.about {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }  
+
+.about {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 13px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+  }
+  
+  
+  .cookieHeading {
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgb(26, 26, 26);
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+  }
+  
+  .cookieDescription {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+    line-height: 1.5;
+  }
+  
+  
