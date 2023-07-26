@@ -1,11 +1,11 @@
-.llamada  {
+.llamada {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     color: black;
     text-align: center;
-    
+
     background-color: lightblue;
 
     padding-top: 12.25rem;
@@ -39,9 +39,9 @@
     font-size: 19px;
     color: black;
     z-index: 1;
-   }
-   
-   .button:before {
+}
+
+.button:before {
     content: "";
     position: absolute;
     left: 50%;
@@ -54,9 +54,9 @@
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -1;
-   }
-   
-   .button:after {
+}
+
+.button:after {
     content: "";
     position: absolute;
     left: 55%;
@@ -69,21 +69,10 @@
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -1;
-   }
-   
-   .button:hover {
-    color: #ffffff;
+}
+
+.button:hover {
+    color: white;
     border: 1px solid #39bda7;
-   }
-   
-   .button:hover:before {
-    top: -35%;
     background-color: #39bda7;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-   }
-   
-   .button:hover:after {
-    top: -45%;
-    background-color: #39bda7;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-   }
+}
